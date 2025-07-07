@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from "react";
-import { getAllMahasiswa } from "../services/MahasiswaService";
+import { getAllMahasiswa } from "../services/mahasiswaService"; // Pastikan path ini sesuai dengan struktur project Anda
 
 export const useMahasiswa = () => {
     const [users, setUsers] = useState([]);
